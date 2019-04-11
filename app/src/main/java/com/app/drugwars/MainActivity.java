@@ -84,9 +84,7 @@ public class MainActivity extends AppCompatActivity {
             webview.loadUrl("https://drugwars.io?ref=teleports");
 
 
-
     }
-
 
 
 }
