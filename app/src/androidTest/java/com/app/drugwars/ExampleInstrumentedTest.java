@@ -1,4 +1,4 @@
-package com.steemeum.drugwars;
+package com.app.drugwars;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

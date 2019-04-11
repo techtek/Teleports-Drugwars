@@ -1,5 +1,5 @@
 
-package com.steemeum.drugwars;
+package com.app.drugwars;
 
 
 
@@ -9,7 +9,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-import android.widget.Button;
 
 public class TeleportsApps extends AppCompatActivity {
 

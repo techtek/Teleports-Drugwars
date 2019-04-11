@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.steemeum.drugwars">
+    package="com.app.drugwars">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -22,15 +22,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".TeleportsApps" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.app.drugwars.TeleportsApps" />
+        <activity android:name="com.app.drugwars.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".SplashScreen">
+        <activity android:name="com.app.drugwars.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,4 +1,4 @@
-package com.steemeum.drugwars;
+package com.app.drugwars;
 
 import android.content.Intent;
 import android.os.Build;
