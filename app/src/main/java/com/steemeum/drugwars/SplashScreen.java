@@ -10,7 +10,7 @@ import android.widget.Button;
 
  public class SplashScreen extends AppCompatActivity {
 
-    //open TeleportsApps.io with button
+     //open Teleports apps, website activity with button
     private Button b;
 
     @Override
@@ -24,7 +24,7 @@ import android.widget.Button;
     public void onClick(View view) {
         Intent y = new Intent(SplashScreen.this, TeleportsApps.class);
                 startActivity(y);
-        android.os.Process.killProcess(android.os.Process.myPid()); //using this you can exit from the whole activity  for both Eclipse and Android studio
+        android.os.Process.killProcess(android.os.Process.myPid()); //using this exits the whole activity
 
     }
 
@@ -40,26 +40,7 @@ import android.widget.Button;
 });
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        //make fullscreen
+        //Make fullscreen
         View decorView = getWindow().getDecorView();
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
             decorView.setSystemUiVisibility(
@@ -75,7 +56,7 @@ import android.widget.Button;
         }
 
 
-//open main activity drugwars.io
+//open main activity drugwars.io after x time have passed by
 
         new Handler().postDelayed(new Runnable() {
 

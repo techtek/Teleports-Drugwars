@@ -1,6 +1,7 @@
 
 package com.steemeum.drugwars;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
@@ -22,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
         //do activity
         this.startActivity(new Intent(MainActivity.this,MainActivity.class));
 
-        return;
     }
 
 
@@ -31,21 +31,12 @@ public class MainActivity extends AppCompatActivity {
         //do activity
         this.startActivity(new Intent(MainActivity.this,MainActivity.class));
 
-        return;
     }
 
 
 
 
-
-
-
-
-
-
-
-
-
+    @SuppressLint("SetJavaScriptEnabled")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -90,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
             webview.getSettings().setLoadWithOverviewMode(true);
             webview.getSettings().setUseWideViewPort(true);
 
-            //URL to Teleport, with reference Teleports
+            //URL to Teleport, with as reference Teleports
             webview.loadUrl("https://drugwars.io?ref=teleports");
 
 
